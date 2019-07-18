@@ -1,0 +1,68 @@
+ul{
+    list-style: none;
+    margin-left: 230px;
+}
+.con{
+    margin: 0 10.55%;
+}
+.table .d_img{
+    width: 145px;
+    height: 80px;
+    margin-top: 10px;
+    position: absolute;
+}
+.table{
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 5px 30px;
+    height: 100px;
+}
+.table .d_nam{
+    margin-top: 10px;
+    font-size: 22px;
+    color: blue;
+    margin-left: 180px;
+}
+.table .d_fun{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 180px;
+}
+.table .d_number{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.table .d_pri{
+    position: relative;
+    top: -60px;
+    font-size: 16px;
+    left: 837px;
+}
+.table .d_num{
+    position: relative;
+    top: -50px;
+    font-size: 16px;
+    left: 837px;
+}
+.table .ii img{
+    height:40px;
+    width: 40px;
+    display: block;
+    margin:8px 12px 5px 12px;
+}
+.table span{
+    position: relative;
+    top:10px;
+}
+.table .ii{
+    position: relative;
+    top: -126px;
+    left: 1220px;
+}
+.table .inp{
+    position: relative;
+    top: -100px;
+    left: 880px;
+}

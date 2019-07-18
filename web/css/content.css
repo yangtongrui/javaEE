@@ -1,0 +1,27 @@
+#content{
+}
+
+#content-list li img{
+    height:180px;
+
+}
+#content-list li{
+    border:1px solid white;
+    width:270px;height:280px;
+    float:left;
+    margin:10px;
+    text-align:center;
+}
+#content-list li p{
+    width:250px;
+    margin:0 auto;
+    font:12px/20px "宋体";
+    text-align:left;
+}
+#content-list li  span{
+    font:12px/20px "宋体";
+    text-align:left;
+}
+#content-list li:hover{
+    border:1px solid #ccc;
+}

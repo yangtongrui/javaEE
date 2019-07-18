@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>LoginTest</servlet-name>
+        <servlet-class>servlet.LoginTest</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginTest</servlet-name>
+        <url-pattern>/LoginTest</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RegistTest</servlet-name>
+        <servlet-class>servlet.RegistTest</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegistTest</servlet-name>
+        <url-pattern>/RegistTest</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>servletContext1</servlet-name>
+        <servlet-class>servlet.servletContext.servletContext1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servletContext1</servlet-name>
+        <url-pattern>/servletContext1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>servletContext2</servlet-name>
+        <servlet-class>servlet.servletContext.servletContext2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servletContext2</servlet-name>
+        <url-pattern>/servletContext2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ResponseServlet</servlet-name>
+        <servlet-class>servlet.response.ResponseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ResponseServlet</servlet-name>
+        <url-pattern>/ResponseServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ChangemedServlet</servlet-name>
+        <servlet-class>med_controller.ChangemedServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ChangemedServlet</servlet-name>
+        <url-pattern>/ChangemedServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>requestServlet</servlet-name>
+        <servlet-class>servlet.request.requestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>requestServlet</servlet-name>
+        <url-pattern>/requestServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>cookieServlet</servlet-name>
+        <servlet-class>servlet.cookie.cookieServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>cookieServlet</servlet-name>
+        <url-pattern>/cookieServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>sessionServlet</servlet-name>
+        <servlet-class>servlet.session.sessionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>sessionServlet</servlet-name>
+        <url-pattern>/sessionServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>productServlet</servlet-name>
+        <servlet-class>jsp.productServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>productServlet</servlet-name>
+        <url-pattern>/productServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>sessionServlet1</servlet-name>
+        <servlet-class>servlet.session.sessionServlet1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>sessionServlet1</servlet-name>
+        <url-pattern>/sessionServlet1</url-pattern>
+    </servlet-mapping>
+
+    <context-param>
+        <param-name>url</param-name>
+        <param-value>jdbc:mysql://localhost</param-value>
+    </context-param>
+
+
+    <servlet>
+    <servlet-name>changemedservlet</servlet-name>
+    <servlet-class>med_controller.ChangemedServlet</servlet-class>
+</servlet>
+    <servlet-mapping>
+        <servlet-name>changemedservlet</servlet-name>
+        <url-pattern>/changemedservlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>med_controller.LoginServlet</servlet-class>
+</servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>userLoginServlet</servlet-name>
+        <servlet-class>med_controller.userLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>userLoginServlet</servlet-name>
+        <url-pattern>/userLoginServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ChangemedlistServlet</servlet-name>
+        <servlet-class>med_controller.ChangemedlistServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ChangemedlistServlet</servlet-name>
+        <url-pattern>/ChangemedlistServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>MedlistServlet</servlet-name>
+        <servlet-class>med_controller.MedlistServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MedlistServlet</servlet-name>
+        <url-pattern>/MedlistServlet</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>ManagerlistServlet</servlet-name>
+        <servlet-class>med_controller.ManagerlistServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ManagerlistServlet</servlet-name>
+        <url-pattern>/ManagerlistServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>MedaddServlet</servlet-name>
+        <servlet-class>med_controller.MedaddServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MedaddServlet</servlet-name>
+        <url-pattern>/MedaddServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Med_typeServlet</servlet-name>
+        <servlet-class>med_controller.Med_typeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Med_typeServlet</servlet-name>
+        <url-pattern>/Med_typeServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>MeddelServlet</servlet-name>
+        <servlet-class>med_controller.MeddelServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MeddelServlet</servlet-name>
+        <url-pattern>/MeddelServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>InsertMedServlet</servlet-name>
+        <servlet-class>med_controller.InsertMedServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InsertMedServlet</servlet-name>
+        <url-pattern>/InsertMedServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>UserdelServlet</servlet-name>
+        <servlet-class>med_controller.UserdelServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserdelServlet</servlet-name>
+        <url-pattern>/UserdelServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ChangeMeddelServlet</servlet-name>
+        <servlet-class>med_controller.ChangeMeddelServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ChangeMeddelServlet</servlet-name>
+        <url-pattern>/ChangeMeddelServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ChangemedAddServlet</servlet-name>
+        <servlet-class>med_controller.ChangemedAddServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ChangemedAddServlet</servlet-name>
+        <url-pattern>/ChangemedAddServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SelectMedByTypeServlet</servlet-name>
+        <servlet-class>med_controller.SelectMedByTypeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SelectMedByTypeServlet</servlet-name>
+        <url-pattern>/SelectMedByTypeServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>AddChangemedShopingServlet</servlet-name>
+        <servlet-class>med_controller.AddChangemedShopingServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddChangemedShopingServlet</servlet-name>
+        <url-pattern>/AddChangemedShopingServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>AddMedShopingServlet</servlet-name>
+        <servlet-class>med_controller.AddMedShopingServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddMedShopingServlet</servlet-name>
+        <url-pattern>/AddMedShopingServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>U_MMedServlet</servlet-name>
+        <servlet-class>med_controller.U_MMedServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>U_MMedServlet</servlet-name>
+        <url-pattern>/U_MMedServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>SelectpriceByMidServlet</servlet-name>
+        <servlet-class>med_controller.SelectpriceByMidServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SelectpriceByMidServlet</servlet-name>
+        <url-pattern>/SelectpriceByMidServlet</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>MedshoppingServlet</servlet-name>
+        <servlet-class>med_controller.MedshoppingServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MedshoppingServlet</servlet-name>
+        <url-pattern>/MedshoppingServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+    <servlet-name>MedShoppingdelServlet</servlet-name>
+    <servlet-class>med_controller.MedShoppingdelServlet</servlet-class>
+</servlet>
+    <servlet-mapping>
+        <servlet-name>MedShoppingdelServlet</servlet-name>
+        <url-pattern>/MedShoppingdelServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>userRegistServlet</servlet-name>
+        <servlet-class>med_controller.userRegistServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>userRegistServlet</servlet-name>
+        <url-pattern>/userRegistServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ChangeMedshoppingServlet</servlet-name>
+        <servlet-class>med_controller.ChangeMedshoppingServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ChangeMedshoppingServlet</servlet-name>
+        <url-pattern>/ChangeMedshoppingServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ChangeMedShoppingdelServlet</servlet-name>
+        <servlet-class>med_controller.ChangeMedShoppingdelServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ChangeMedShoppingdelServlet</servlet-name>
+        <url-pattern>/ChangeMedShoppingdelServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ChangemedSelectServlet</servlet-name>
+        <servlet-class>med_controller.ChangemedSelectServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ChangemedSelectServlet</servlet-name>
+        <url-pattern>/ChangemedSelectServlet</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>ChangeMedUpdateServlet</servlet-name>
+        <servlet-class>med_controller.ChangeMedUpdateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ChangeMedUpdateServlet</servlet-name>
+        <url-pattern>/ChangeMedUpdateServlet</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>InsertManagerServlet</servlet-name>
+        <servlet-class>med_controller.InsertManagerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InsertManagerServlet</servlet-name>
+        <url-pattern>/InsertManagerServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ManagerUpdateServlet</servlet-name>
+        <servlet-class>med_controller.ManagerUpdateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ManagerUpdateServlet</servlet-name>
+        <url-pattern>/ManagerUpdateServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>MedUpdateServlet</servlet-name>
+        <servlet-class>med_controller.MedUpdateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MedUpdateServlet</servlet-name>
+        <url-pattern>/MedUpdateServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>SubmitMedServlet</servlet-name>
+        <servlet-class>med_controller.SubmitMedServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SubmitMedServlet</servlet-name>
+        <url-pattern>/SubmitMedServlet</url-pattern>
+    </servlet-mapping>
+
+
+
+
+    <servlet>
+        <servlet-name>SubmitChangeMedServlet</servlet-name>
+        <servlet-class>med_controller.SubmitChangeMedServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SubmitChangeMedServlet</servlet-name>
+        <url-pattern>/SubmitChangeMedServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>UpdateMedshoppingnumberServlet</servlet-name>
+        <servlet-class>med_controller.UpdateMedshoppingnumberServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateMedshoppingnumberServlet</servlet-name>
+        <url-pattern>/UpdateMedshoppingnumberServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>U_MChangeMedServlet</servlet-name>
+        <servlet-class>med_controller.U_MChangeMedServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>U_MChangeMedServlet</servlet-name>
+        <url-pattern>/U_MChangeMedServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>NeedmedlistServlet</servlet-name>
+        <servlet-class>med_controller.NeedmedlistServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NeedmedlistServlet</servlet-name>
+        <url-pattern>/NeedmedlistServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>NeedMeddelServlet</servlet-name>
+        <servlet-class>med_controller.NeedMeddelServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NeedMeddelServlet</servlet-name>
+        <url-pattern>/NeedMeddelServlet</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>SelectNeedMedServlet</servlet-name>
+        <servlet-class>med_controller.SelectNeedMedServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SelectNeedMedServlet</servlet-name>
+        <url-pattern>/SelectNeedMedServlet</url-pattern>
+    </servlet-mapping>
+
+
+
+
+    <servlet>
+        <servlet-name>NeedMedUpdateServlet</servlet-name>
+        <servlet-class>med_controller.NeedMedUpdateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NeedMedUpdateServlet</servlet-name>
+        <url-pattern>/NeedMedUpdateServlet</url-pattern>
+    </servlet-mapping>
+</web-app>

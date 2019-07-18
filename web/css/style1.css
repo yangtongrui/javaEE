@@ -1,0 +1,231 @@
+/*css reset 开始*/
+body,p,h1,h2,h3,h4,h5,h6,dl,dd,ul,li{
+    margin:0;padding:0;
+    font-size:12px;
+}
+ul,li{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+img{
+    border:none;
+}
+/*css reset 结束*/
+/*css public*/
+.wrap{
+    width:1200px;
+    margin:0 auto;
+    position:relative;
+}
+.clearfix:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+
+/*css public*/
+
+/*header 开始*/
+#header{
+    background: #f1f1f1;
+}
+
+#header-content{
+    height:30px;
+    line-height:30px;
+}
+
+#header-content ul {
+    float:right;
+}
+#header-content li ,#header-content p {
+    float:left;
+}
+
+
+/*header 结束*/
+
+/*nav 开始*/
+#nav{
+    border-bottom:2px solid #0063cd;
+}
+#nav-content{
+    height:40px;
+    line-height:30px;
+}#nav-content .nav-left{
+     width:195px;height:40px;
+     background:#bcbc;
+     text-align:center;
+     float:left;
+ }
+#nav-content .nav-left h1{
+    font-size:20px;
+    line-height:40px;
+    /*background:url(../img/container-change0.jpg) no-repeat 0 3px;*/
+}
+#nav-content .nav-left h1 a{
+    color:white;
+}
+
+#nav-content .nav-center,#nav-content .nav-center li{
+    float:left;
+}
+#nav-content .nav-center li a{
+    color:black;
+    display:block;
+    width:100px;height:38px;
+    text-align:center;
+    line-height:38px;
+    font-size: 16px;
+    margin:0px 10px;
+}
+#nav-content .nav-center li a:hover{
+    color:blue;
+}
+/*nav 结束*/
+
+
+
+/*#container 开始*/
+#container{
+    position:relative;
+    height:360px;
+    overflow: hidden;
+    background: rgb(244, 33, 78);
+}
+#container img{
+    width: 880px;
+    height: 360px;
+    position:absolute;
+    left:50%;
+    margin-left:-405px;
+    display:none;
+}
+#container .select{
+    display:block;
+}
+#container .container-list{
+    float:left;
+}
+
+#container .container-list li{
+    width:195px;height:40px;
+    font-size: 16px;
+    line-height:40px;
+    text-align:center;
+}
+#container .container-right{
+    width:205px;height:360px;
+    background:url(../img/container-right.png) no-repeat;
+    float:right;
+}
+#container .container-center{
+    height:40px;
+    float:left;
+    /*display:none;*/
+    position:absolute;
+    left:195px;
+    line-height:40px;
+
+}
+
+
+#container .container-center{
+}
+#tab-1,#tab-2{
+    position:absolute;
+    bottom:10px;
+    cursor:pointer;
+}
+#tab-1{
+    left:330px;
+
+}
+#tab-2{
+    right:320px;
+}
+#tab-1 li,#tab-2 li {
+    text-align:center;
+    line-height:20px;
+    float:left;
+    width:20px;height:20px;
+    background:#ccc;
+    margin-right:1px;
+}
+/*#container 结束*/
+
+
+
+
+
+/*footer 开始*/
+/* #footer{
+    height:100px;
+    background:#686868;
+}
+#footer-content{
+    position:relative;
+}
+#footer-content img {
+    width:69px;height:69px;
+    position:absolute;
+    top:12px;
+}
+
+#footer-content {
+    padding:1px;
+}
+#footer-content ul{
+    color:white;
+    line-height:20px;
+    margin:20px 0 0 80px;
+} */
+/*footer 结束*/
+
+
+
+
+
+/*gotop 开始*/
+#gotop{
+    display:none;
+    width:25px;height:25px;
+    background:url(../img/gotop.png) no-repeat -26px 0;
+    position:fixed;
+    right:40px;
+    bottom:110px;
+    color:black;
+    cursor:pointer;
+}
+#gotop:hover{
+    background:url(../img/gotop.png) no-repeat
+}
+/*gotop 结束*/
+
+/*#intro 开始*/
+#intro{
+    height:600px;
+}
+#intro{
+    background: #F5F5F5
+}
+#intro-content{
+    padding:1px;
+    background:url(../img/about.jpg) no-repeat 50% 0;
+    height:600px;
+}
+#intro-content div{
+    width:800px;
+    margin:100px auto;
+    text-align:center;
+}
+#intro-content p{
+    margin-bottom:20px;
+    width:800px;
+    font:12px/24px "宋体";
+}
+
+/*#intro 结束*/

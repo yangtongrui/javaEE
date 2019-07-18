@@ -1,0 +1,68 @@
+ul{
+    list-style: none;
+    margin-left: 180px;
+}
+.table{
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 5px 30px;
+    height: 100px;
+}
+.table .d_nam{
+    margin-top: 10px;
+    font-size: 22px;
+    color: blue;
+    margin-left: 100px;
+}
+.table .d_fun{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.table .d_number{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.table .d_pri{
+    position: relative;
+    top: -60px;
+    font-size: 16px;
+    left: 650px;
+}
+.table .d_num{
+    position: relative;
+    top: -50px;
+    font-size: 16px;
+    left: 650px;
+}
+.table .ii img{
+    height:40px;
+    width: 40px;
+    display: block;
+    margin:8px 12px 5px 12px;
+}
+.table span{
+    position: relative;
+    top:10px;
+}
+.table .ii{
+    position: relative;
+    top: -155px;
+    left: 930px;
+}
+.table .inp{
+    position: relative;
+    top: -100px;
+    left: 880px;
+}
+
+
+
+.table .d_img{
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    position: absolute;
+}
